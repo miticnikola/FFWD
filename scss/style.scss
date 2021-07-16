@@ -605,3 +605,62 @@ body {
 
   }
 }
+
+
+@media (max-width: 300px) {
+  body {
+    #main {
+      .container {
+        .row {
+          .btnSm {
+            p {
+              width: 89%;
+            }
+          }
+        }
+      }
+      .container-fluid {
+        .carousel {
+          .carousel-inner {
+            .carousel-item {
+              .mySlides {
+                .wrapp {
+                  margin-top: -100px;
+                  .imgDiv {
+                    height: 200px;
+                    width: 200px;
+                    img {
+                      width: 40%;
+                    }
+                    p {
+                      font-size: 15px;
+                    }
+                  }
+                }
+                .oneSmall {
+                  .container {
+                    .row {
+                      .contSmall {
+                        font-size: 13px;
+                        img {
+                          width: 95%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .arrow {
+            img {
+              margin-top: -1125px;
+              width: 35%;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

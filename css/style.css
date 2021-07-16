@@ -345,5 +345,24 @@ body #main {
   body #main .container-fluid .carousel .arrow img {
     margin-top: -1120px;
     width: 40%; } }
+@media (max-width: 300px) {
+  body #main .container .row .btnSm p {
+    width: 89%; }
+  body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {
+    margin-top: -100px; }
+    body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv {
+      height: 200px;
+      width: 200px; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv img {
+        width: 40%; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
+        font-size: 15px; }
+  body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall {
+    font-size: 13px; }
+    body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall img {
+      width: 95%; }
+  body #main .container-fluid .carousel .arrow img {
+    margin-top: -1125px;
+    width: 35%; } }
 
 /*# sourceMappingURL=style.css.map */
