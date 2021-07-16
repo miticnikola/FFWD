@@ -473,16 +473,20 @@ body {
       }
         #main {
             .container {
-                #buttons {
-                    .btn {
-                        p {
-                            // padding-top: 10px;
-                            // width: 120%;
-                            // margin-left: -13px;
-                            margin: 0;
-                            width: 45%;
-                            margin: 0 auto;
-                            text-align: center;
+                .row {
+                    .btnSm {
+                      // text-align: center;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                      // img {
+                      // }
+                      p {
+                        text-align: center;
+                        width: 45%;
+                        // width: 100%; stavi za manje rezolucije da text izgleda lepo
+                        margin: 0 auto;
                         }
 
                     }
@@ -499,6 +503,7 @@ body {
                   .carousel-indicators {  
                     position: absolute; 
                       img {
+                        background-color: $containerBckg;
                         &:first-child {
                           width: 20%;
                           // height: 120px;
@@ -553,7 +558,7 @@ body {
                         // background-color: red;
                         padding-top: 170px;
                         // background-color: yellow;
-                        height: 1253px;
+                        height: 1203px;
                         background-color: $containerBckg;
                         margin-top: 166px;
                         .container {
@@ -572,7 +577,7 @@ body {
                   }
                   .arrow {
                     img {
-                      margin-top: -850px;
+                      margin-top: -1170px;
                       width: 20%; 
                       }
                   }

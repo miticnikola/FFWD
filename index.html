@@ -111,7 +111,9 @@
     </header>
 
     <section id="main">
-        <div class="container">
+
+        <!-- Buttons for larges devices -->
+        <div class="container d-none d-lg-block">
             <div class="row" id="buttons">
 
                 <button class="btn btn1 btns1 col-xl-1 col-lg-1 col-6" id="btn12">
@@ -185,7 +187,46 @@
 
         </div>
 
+        <!-- Buttons for small devices -->
+        <div class="container d-lg-none" id="smallGroup">
+            <div class="row">
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon1.png" alt="">
+                    <p>Interactive signage solutions</p>
+                </button>
+
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon5.png" alt="">
+                    <p>Outsourcing services</p>
+                </button>
+            </div>
+            <div class="row">
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon3.png" alt="">
+                    <p>Smart wayfinding solutions</p>
+                </button>
+
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon2.png" alt="">
+                    <p>Building management solutions</p>
+                </button>
+            </div>
+            <div class="row">
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon6.png" alt="">
+                    <p>Custom software solutions</p>
+                </button>
+
+                <button class="col-6 btn btnSm">
+                    <img src="./img/icon4.png" alt="">
+                    <p>In-company communication solutions</p>
+                </button>
+            </div>
+        </div>
+
         <div class="container-fluid">
+
+            <!-- Content for large devices -->
 
             <!-- First content -->
             <div class="one divs btn1">
@@ -367,9 +408,9 @@
             </div>
         </div>
 
-        <!-- Small devices -->
 
 
+        <!-- Content for Small devices -->
         <div class="container-fluid d-lg-none" id="smallDevices">
 
             <div id="carouselExampleIndicators" class="carousel slide" data-interval="0" data-pause="true">

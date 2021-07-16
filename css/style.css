@@ -219,11 +219,24 @@ body #main {
       margin-top: 100px; }
       body header nav .container-fluid .navbar-collapse .nav {
         width: 100%; }
-  body #main .container #buttons .btn p {
-    margin: 0;
-    width: 45%;
-    margin: 0 auto;
-    text-align: center; }
+  body #main .container .row .btnSm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    body #main .container .row .btnSm p {
+      text-align: center;
+      width: 45%;
+      margin: 0 auto; }
   body #main .container-fluid {
     display: none;
     background-color: white;
@@ -233,13 +246,15 @@ body #main {
       position: relative; }
       body #main .container-fluid .carousel .carousel-indicators {
         position: absolute; }
-        body #main .container-fluid .carousel .carousel-indicators img:first-child {
-          width: 20%;
-          height: auto;
-          margin-top: 16px; }
-        body #main .container-fluid .carousel .carousel-indicators img:not(first-child) {
-          width: 20%;
-          height: auto; }
+        body #main .container-fluid .carousel .carousel-indicators img {
+          background-color: #F5F5F5; }
+          body #main .container-fluid .carousel .carousel-indicators img:first-child {
+            width: 20%;
+            height: auto;
+            margin-top: 16px; }
+          body #main .container-fluid .carousel .carousel-indicators img:not(first-child) {
+            width: 20%;
+            height: auto; }
         body #main .container-fluid .carousel .carousel-indicators p {
           color: blue; }
       body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides {
@@ -277,13 +292,13 @@ body #main {
               font-size: 24px; }
         body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
           padding-top: 170px;
-          height: 1253px;
+          height: 1203px;
           background-color: #F5F5F5;
           margin-top: 166px; }
           body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall :not(first-child) {
             margin-top: 20px; }
       body #main .container-fluid .carousel .arrow img {
-        margin-top: -850px;
+        margin-top: -1170px;
         width: 20%; } }
 @media (max-width: 520px) {
   body header nav .container-fluid .navbar-brand {
