@@ -50,7 +50,7 @@ body #main {
       width: 323px;
       border-radius: 50%; }
       body #main .container .row .btns2 p {
-        color: white;
+        color: #ffffff;
         margin: 0;
         padding: 0;
         padding-top: 10px;
@@ -61,12 +61,7 @@ body #main {
     background-color: #f5f5f5;
     width: 100%;
     margin-top: -75px; }
-    body #main .container-fluid .one,
-    body #main .container-fluid .two,
-    body #main .container-fluid .three,
-    body #main .container-fluid .four,
-    body #main .container-fluid .five,
-    body #main .container-fluid .six {
+    body #main .container-fluid .divs {
       display: none; }
   body #main .one .cont {
     display: block;
@@ -239,7 +234,7 @@ body #main {
       margin: 0 auto; }
   body #main .container-fluid {
     display: none;
-    background-color: white;
+    background-color: #ffffff;
     margin: 0;
     padding: 0; }
     body #main .container-fluid .carousel {
@@ -279,7 +274,7 @@ body #main {
               -ms-flex-align: center;
                   align-items: center; }
           body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
-            color: white;
+            color: #ffffff;
             margin: 0;
             padding: 0;
             padding-top: 10px;
@@ -310,6 +305,38 @@ body #main {
     position: absolute;
     top: 33px;
     right: 10px;
-    border: none; } }
+    border: none; }
+  body #main .container .row .btnSm p {
+    width: 100%; }
+  body #main .container-fluid .carousel .carousel-indicators img {
+    background-color: #f5f5f5; }
+    body #main .container-fluid .carousel .carousel-indicators img:first-child {
+      width: 20%;
+      height: auto;
+      margin-top: 16px; }
+    body #main .container-fluid .carousel .carousel-indicators img:not(first-child) {
+      width: 20%;
+      height: auto; }
+  body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {
+    margin-top: -125px; }
+    body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv {
+      display: block;
+      background-color: #303030;
+      height: 250px;
+      width: 250px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
+        font-size: 18px; }
+  body #main .container-fluid .carousel .arrow img {
+    margin-top: -1120px;
+    width: 40%; } }
 
 /*# sourceMappingURL=style.css.map */

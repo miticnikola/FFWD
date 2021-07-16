@@ -11,7 +11,24 @@
 $containerBckg: #f5f5f5;
 $black: #000;
 $btnBckg: #303030;
+$white: #ffffff;
 
+// Mixins
+@mixin contLg {
+  display: block;
+  padding-top: 70px;
+  position: relative;
+}
+@mixin contPlg {
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+@mixin contImgLg {
+  position: absolute;
+  top: 0;
+  margin-top: 120px;
+}
 
 // Body
 body {
@@ -81,7 +98,7 @@ body {
           width: 323px;
           border-radius: 50%;
           p {
-            color: white;
+            color: $white;
             margin: 0;
             padding: 0;
             padding-top: 10px;
@@ -97,30 +114,17 @@ body {
       background-color: $containerBckg;
       width: 100%;
       margin-top: -75px;
-      .one,
-      .two,
-      .three,
-      .four,
-      .five,
-      .six {
+      .divs {
         display: none;
       }
     }
 
-    @mixin contentDivs {
-    }
-
     .one {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
-
         .touch {
           top: 30px;
         }
@@ -133,8 +137,7 @@ body {
 
         p {
           margin-top: 122px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
       }
     }
@@ -142,13 +145,10 @@ body {
     // Content two
     .two {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
+
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
 
         .prop {
@@ -160,8 +160,7 @@ body {
 
         p {
           margin-top: 122px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
         &:last-child {
           float: left;
@@ -184,13 +183,10 @@ body {
     // Content three
     .three {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
+
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
 
         .nameBoards {
@@ -205,8 +201,7 @@ body {
 
         p {
           margin-top: 115px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
       }
     }
@@ -214,13 +209,10 @@ body {
     // content four
     .four {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
+
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
 
         .nameBoards {
@@ -235,8 +227,7 @@ body {
 
         p {
           margin-top: 115px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
       }
     }
@@ -244,13 +235,10 @@ body {
     //Content five
     .five {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
+
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
 
         .ffwd {
@@ -262,8 +250,7 @@ body {
 
         p {
           margin-top: 130px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
       }
     }
@@ -271,13 +258,10 @@ body {
     //   Sixth content
     .six {
       .cont {
-        display: block;
-        padding-top: 70px;
-        position: relative;
+        @include contLg;
+
         img {
-          position: absolute;
-          top: 0;
-          margin-top: 120px;
+          @include contImgLg;
         }
 
         .truck {
@@ -295,8 +279,7 @@ body {
 
         p {
           margin-top: 130px;
-          font-size: 14px;
-          padding-bottom: 50px;
+          @include contPlg;
         }
       }
     }
@@ -429,7 +412,7 @@ body {
 
       .container-fluid {
         display: none;
-        background-color: white;
+        background-color: $white;
         margin: 0;
         padding: 0;
         .carousel {
@@ -468,7 +451,7 @@ body {
                     align-items: center;
 
                     p {
-                      color: white;
+                      color: $white;
                       margin: 0;
                       padding: 0;
                       padding-top: 10px;
@@ -536,5 +519,85 @@ body {
         }
       }
     }
+    #main {
+      .container {
+        .row {
+          .btnSm {
+            p {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .container-fluid {
+        .carousel {
+          .carousel-indicators {
+            img {
+              background-color: $containerBckg;
+              &:first-child {
+                width: 20%;
+                height: auto;
+                margin-top: 16px;
+              }
+              &:not(first-child) {
+                width: 20%;
+                height: auto;
+              }
+            }
+          }
+          .carousel-inner {
+            .carousel-item {
+              .mySlides {
+                .wrapp {
+                  margin-top: -125px;
+                  .imgDiv {
+                    display: block;
+                    background-color: $btnBckg;
+                    height: 250px;
+                    width: 250px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                      // color: $white;
+                      // margin: 0;
+                      // padding: 0;
+                      // padding-top: 10px;
+                      // width: 80%;
+                      // text-align: center;
+                      font-size: 18px;
+                    }
+                  }
+                }
+                // .oneSmall {
+                //   // background-color: red;
+                //   padding-top: 170px;
+                //   // background-color: yellow;
+                //   height: 1203px;
+                //   background-color: $containerBckg;
+                //   margin-top: 166px;
+                //   .container {
+                //     .row {
+                //       .contSmall {
+                //         :not(first-child) {
+                //           margin-top: 20px;
+                //         }
+                //       }
+                //     }
+                //   }
+                // }
+              }
+            }
+          }
+          .arrow {
+            img {
+              margin-top: -1120px;
+              width: 40%;
+            }
+          }
+        }
+      }
+    }
+
   }
 }

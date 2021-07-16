@@ -46,13 +46,10 @@ function deleteActive() {
 
         btn.style.display = "block";
     });
-}
-
-console.log(div1);
+};
 
 
 // Show content for large devices
-
 let test = (div, btn1, btn2) => {
     btn1.addEventListener('click', () => {
         deleteActive();
@@ -80,7 +77,6 @@ let backIcon = () => {
 
 
 // Show content for small devices
-
 smBtns.forEach(btn => {
     btn.addEventListener('click', () => {
         smDevicesCont.style.display = "block";
@@ -88,32 +84,6 @@ smBtns.forEach(btn => {
     });
 });
 
-// window.addEventListener('resize', function(e) {
-//     let newWidth = window.innerWidth;
-//     if(newWidth < 991) {
-//         deleteActive();
-//         buttons.forEach(btn => {
-//             btn.addEventListener('click', () => {
-//                 buttonsClick.forEach(btn1 => {
-//                     btn1.style.display = "none";
-//                     // btn.style.display = "block";
-//                     // btnsGroup.style.display = 'none'; ovo obuhvata i btnsClick
-//                     buttons.forEach(btn => {
-//                         btn.style.display = "none";
-//                     });
-//                     smDevicesCont.style.display = 'block';
-//                     divs.forEach(div => {
-//                         div.classList.remove("active");
-//                     });
-//                 });
-//             });
-//         });
-//     } else {
-//         backIcon();
-//         smDevicesCont.style.display = 'none';
-//             }
-//             // Kako da se vrate ikonice???????????????????????????????????
-//         });
-        backIcon();
+backIcon();
 
 
