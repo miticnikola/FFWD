@@ -40,8 +40,10 @@ $white: #ffffff;
 body {
   // Header
   header {
+    background-color: $white;
     // Navigation
     nav {
+      background-color: $white;
       .container-fluid {
         height: 134px;
         padding: 0 20px 0 70px;
