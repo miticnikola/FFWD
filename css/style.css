@@ -39,12 +39,12 @@ body #main {
         justify-content: space-around; }
     body #main .container .row .btn {
       font-size: 14px; }
-      body #main .container .row .btn p {
+    body #main .container .row .btns1 {
+      display: block; }
+      body #main .container .row .btns1 p {
         padding-top: 10px;
         width: 150%;
         margin-left: -20px; }
-    body #main .container .row .btns1 {
-      display: block; }
     body #main .container .row .btns2 {
       display: none;
       background-color: #303030;
@@ -53,11 +53,9 @@ body #main {
       border-radius: 50%; }
       body #main .container .row .btns2 p {
         color: #ffffff;
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
         padding-top: 10px;
         width: 95%;
-        margin: 0 auto;
         font-size: 24px; }
   body #main .container-fluid {
     background-color: #f5f5f5;
@@ -188,7 +186,7 @@ body #main {
     body header nav .container-fluid .collapse ul .nav-item .nav-link {
       font-size: 16px; } }
 @media (max-width: 1199px) {
-  body #main .container #buttons button p {
+  body #main .container #buttons .btns1 p {
     margin-left: -13px; } }
 @media (max-width: 1072px) {
   body header nav .container-fluid .collapse ul .nav-item {
@@ -289,7 +287,7 @@ body #main {
               text-align: center;
               font-size: 24px; }
         body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
-          padding-top: 40px;
+          padding-top: 90px;
           height: 1203px;
           background-color: #f5f5f5;
           margin-top: 166px; }
@@ -342,10 +340,13 @@ body #main {
               align-items: center; }
       body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
         font-size: 18px; }
+  body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
+    padding-top: 0px;
+    padding-top: 60px; }
   body #main .container-fluid .carousel .arrow img {
     margin-top: -1120px;
     width: 40%; } }
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   body #main .container .row .btnSm p {
     width: 89%; }
   body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {

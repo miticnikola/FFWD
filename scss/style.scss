@@ -89,14 +89,14 @@ body {
         justify-content: space-around;
         .btn {
           font-size: 14px;
+        }
+        .btns1 {
+          display: block;
           p {
             padding-top: 10px;
             width: 150%;
             margin-left: -20px;
           }
-        }
-        .btns1 {
-          display: block;
         }
         .btns2 {
           display: none;
@@ -106,11 +106,10 @@ body {
           border-radius: 50%;
           p {
             color: $white;
-            margin: 0;
-            padding: 0;
+            margin: 0 auto;
+            // padding: 0;
             padding-top: 10px;
             width: 95%;
-            margin: 0 auto;
             font-size: 24px;
           }
         }
@@ -323,7 +322,7 @@ body {
     #main {
       .container {
         #buttons {
-          button {
+          .btns1 {
             p {
               margin-left: -13px;
             }
@@ -469,7 +468,7 @@ body {
                 }
                 .oneSmall {
                   // background-color: red;
-                  padding-top: 40px;
+                  padding-top: 90px;
                   // background-color: yellow;
                   height: 1203px;
                   background-color: $containerBckg;
@@ -573,23 +572,17 @@ body {
                     }
                   }
                 }
-                // .oneSmall {
-                //   // background-color: red;
-                //   padding-top: 170px;
-                //   // background-color: yellow;
-                //   height: 1203px;
-                //   background-color: $containerBckg;
-                //   margin-top: 166px;
-                //   .container {
-                //     .row {
-                //       .contSmall {
-                //         :not(first-child) {
-                //           margin-top: 20px;
-                //         }
-                //       }
-                //     }
-                //   }
-                // }
+
+
+                .oneSmall {
+                  // background-color: red;
+                  padding-top: 0px;
+                  padding-top: 60px;
+
+                }
+
+
+
               }
             }
           }
@@ -607,7 +600,7 @@ body {
 }
 
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   body {
     #main {
       .container {
