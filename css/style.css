@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lora", serif; }
+
+body header nav .container-fluid {
+  height: 134px;
+  padding: 0 20px 0 70px; }
+  body header nav .container-fluid .collapse .nav {
+    margin: 0 auto; }
+    body header nav .container-fluid .collapse .nav .active {
+      border-bottom: 4px solid #777777; }
+    body header nav .container-fluid .collapse .nav li {
+      padding: 0 15px; }
+      body header nav .container-fluid .collapse .nav li a {
+        color: #000;
+        font-size: 18px; }
+  body header nav .container-fluid form input {
+    background-image: url("../img/search.png");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 40px;
+    border: none;
+    padding-left: 5px; }
+    body header nav .container-fluid form input:focus {
+      content: "";
+      background-image: none;
+      width: 150px; }
+body #main {
+  padding-top: 100px; }
+  body #main .container .row {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    body #main .container .row .btn {
+      font-size: 14px; }
+      body #main .container .row .btn p {
+        padding-top: 10px;
+        width: 150%;
+        margin-left: -20px; }
+    body #main .container .row .btns1 {
+      display: block; }
+    body #main .container .row .btns2 {
+      display: none;
+      background-color: #303030;
+      height: 323px;
+      width: 323px;
+      border-radius: 50%; }
+      body #main .container .row .btns2 p {
+        color: white;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        width: 95%;
+        margin: 0 auto;
+        font-size: 24px; }
+  body #main .container-fluid {
+    background-color: #F5F5F5;
+    width: 100%;
+    margin-top: -75px; }
+    body #main .container-fluid .one,
+    body #main .container-fluid .two,
+    body #main .container-fluid .three,
+    body #main .container-fluid .four,
+    body #main .container-fluid .five,
+    body #main .container-fluid .six {
+      display: none; }
+  body #main .one .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .one .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .one .cont .touch {
+      top: 30px; }
+    body #main .one .cont .cast {
+      top: 20px; }
+    body #main .one .cont .dotz {
+      top: -10px; }
+    body #main .one .cont p {
+      margin-top: 122px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+  body #main .two .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .two .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .two .cont .prop {
+      top: -25px; }
+    body #main .two .cont .nameBoards {
+      top: 5px; }
+    body #main .two .cont p {
+      margin-top: 122px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+    body #main .two .cont:last-child {
+      float: left; }
+  body #main .two .row:last-of-type .cont {
+    padding-top: 0px; }
+    body #main .two .row:last-of-type .cont img {
+      margin-top: 0; }
+    body #main .two .row:last-of-type .cont p {
+      margin-top: 80px; }
+  body #main .three .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .three .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .three .cont .nameBoards {
+      top: 5px; }
+    body #main .three .cont .signage {
+      top: -30px; }
+    body #main .three .cont .map {
+      top: -50px; }
+    body #main .three .cont p {
+      margin-top: 115px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+  body #main .four .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .four .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .four .cont .nameBoards {
+      top: 5px; }
+    body #main .four .cont .signage {
+      top: -30px; }
+    body #main .four .cont .map {
+      top: -50px; }
+    body #main .four .cont p {
+      margin-top: 115px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+  body #main .five .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .five .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .five .cont .ffwd {
+      top: -10px; }
+    body #main .five .cont .gateway {
+      top: 6px; }
+    body #main .five .cont p {
+      margin-top: 130px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+  body #main .six .cont {
+    display: block;
+    padding-top: 70px;
+    position: relative; }
+    body #main .six .cont img {
+      position: absolute;
+      top: 0;
+      margin-top: 120px; }
+    body #main .six .cont .truck {
+      top: -5px; }
+    body #main .six .cont .provada {
+      top: -5px; }
+    body #main .six .cont .opticien {
+      top: 10px; }
+    body #main .six .cont .jansnel {
+      top: -16px; }
+    body #main .six .cont p {
+      margin-top: 130px;
+      font-size: 14px;
+      padding-bottom: 50px; }
+  body #main .divs.active {
+    display: block; }
+
+@media (max-width: 1317px) {
+  body header nav .container-fluid .collapse ul .nav-item {
+    padding: 0 5px; }
+    body header nav .container-fluid .collapse ul .nav-item .nav-link {
+      font-size: 16px; } }
+@media (max-width: 1199px) {
+  body #main .container #buttons button p {
+    margin-left: -13px; } }
+@media (max-width: 1072px) {
+  body header nav .container-fluid .collapse ul .nav-item {
+    padding: 0px; }
+  body #main .container-fluid .divs .container .row div img {
+    width: 90%;
+    margin-top: 115px; } }
+@media (max-width: 991px) {
+  body header nav .container-fluid {
+    height: 100px;
+    position: relative; }
+    body header nav .container-fluid .navbar-brand {
+      position: absolute;
+      left: 30px; }
+    body header nav .container-fluid #small_search {
+      position: absolute;
+      right: 100px;
+      top: 50px; }
+    body header nav .container-fluid .navbar-toggler {
+      position: absolute;
+      top: 43px;
+      right: 30px;
+      border: none; }
+    body header nav .container-fluid .navbar-collapse {
+      margin-top: 100px; }
+      body header nav .container-fluid .navbar-collapse .nav {
+        width: 100%; }
+  body #main .container #buttons .btn p {
+    margin: 0;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center; }
+  body #main .container-fluid {
+    display: none;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    body #main .container-fluid .carousel {
+      position: relative; }
+      body #main .container-fluid .carousel .carousel-indicators {
+        position: absolute; }
+        body #main .container-fluid .carousel .carousel-indicators img:first-child {
+          width: 20%;
+          height: auto;
+          margin-top: 16px; }
+        body #main .container-fluid .carousel .carousel-indicators img:not(first-child) {
+          width: 20%;
+          height: auto; }
+        body #main .container-fluid .carousel .carousel-indicators p {
+          color: blue; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides {
+        background-color: blue; }
+        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {
+          position: absolute;
+          margin-top: -160px; }
+          body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv {
+            display: block;
+            background-color: #303030;
+            height: 323px;
+            width: 323px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
+            body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
+              color: white;
+              margin: 0;
+              padding: 0;
+              padding-top: 10px;
+              width: 80%;
+              text-align: center;
+              font-size: 24px; }
+        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
+          padding-top: 170px;
+          height: 1253px;
+          background-color: #F5F5F5;
+          margin-top: 166px; }
+          body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall :not(first-child) {
+            margin-top: 20px; }
+      body #main .container-fluid .carousel .arrow img {
+        margin-top: -850px;
+        width: 20%; } }
+@media (max-width: 520px) {
+  body header nav .container-fluid .navbar-brand {
+    position: absolute;
+    left: 10px; }
+    body header nav .container-fluid .navbar-brand img {
+      width: 60%; }
+  body header nav .container-fluid #small_search {
+    position: absolute;
+    right: 60px;
+    top: 40px; }
+  body header nav .container-fluid .navbar-toggler {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    border: none; } }
+
+/*# sourceMappingURL=style.css.map */

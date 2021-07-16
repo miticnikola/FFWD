@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootrstap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/futureforward-logo 1.png" alt="ffwd_logo.png"></a>
+
+
+
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div> -->
+
+
+                <form class="d-lg-none" id="small_search">
+                    <input class="me-2" type="search" aria-label="Search">
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li> -->
+                    </ul>
+
+                    <form class="d-none d-lg-block">
+                        <input class="me-2" type="search" aria-label="Search">
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    </form>
+                    <!-- Ul for language -->
+
+                    <ul class="navbar-nav me-right">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Another language</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another language2</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another language3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <div class="row" id="buttons">
+
+                <button class="btn btn1 btns1 col-xl-1 col-lg-1 col-6" id="btn12">
+                    <img src="./img/icon1.png" alt="">
+                    <p>Interactive signage solutions</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn12 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/smart-tv 1.png" alt="">
+                    <p>Interactive signage solutions</p>
+                </button>
+
+                <button class="btn btn2 btns1 col-xl-1 col-lg-1 col-6" id="btn22">
+                    <img src="./img/icon2.png" alt="">
+                    <p>Building management solutions</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn22 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/building.png" alt="">
+                    <p>Building management solutions</p>
+                </button>
+
+                <button class="btn btn3 btns1 col-xl-1 col-lg-1 col-6" id="btn32">
+                    <img src="./img/icon3.png" alt="">
+                    <p>Smart wayfinding solutions</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn32 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/sign.png" alt="">
+                    <p>Smart wayfinding solutions</p>
+                </button>
+
+                <button class="btn btn4 btns1 col-xl-1 col-lg-1 col-6" id="btn42">
+                    <img src="./img/icon4.png" alt="">
+                    <p>In-company communication solutions</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn42 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/people.png" alt="">
+                    <p>In-company communication solutions</p>
+                </button>
+
+                <button class="btn btn5 btns1 col-xl-1 col-lg-1 col-6" id="btn52">
+                    <img src="./img/icon5.png" alt="">
+                    <p>Outsourcing services</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn52 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/services.png" alt="">
+                    <p>Outsourcing services</p>
+                </button>
+
+
+                <button class="btn btn6 btns1 col-xl-1 col-lg-1 col-6" id="btn62">
+                    <img src="./img/icon6.png" alt="">
+                    <p>Custom software solutions</p>
+                </button>
+
+                <!-- Button for click -->
+                <button class="btn btn62 btns2 col-xl-1 col-lg-1 col-md-1">
+                    <img src="./img/soft.png" alt="">
+                    <p>Custom software solutions</p>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+
+            <!-- First content -->
+            <div class="one divs btn1">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/touchscreen.nl logo.png" class="touch" alt="">
+                            <p>The one-stop shop for interactive screens and digital signage solutions. We take your
+                                ideas through all the necessary steps to bring them to life.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Castiti-logo-with-text-BLACK 1.png" class="cast" alt="">
+                            <p>Discover the best, smartest and most effective way to communicate with your audience via
+                                screens at any location using our digital signage platform.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/sustainable signage logo.png" class="signage" alt="">
+                            <p>Durable, efficient, wireless, E-ink displays that transform the space into a sustainable
+                                and modern environment.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/CityDotz logo.png" class="dotz" alt="">
+                            <p>Durable, efficient, wireless, E-ink displays that transform the space into a sustainable
+                                and modern environment.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second content -->
+            <div class="two divs btn2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Castiti-logo-with-text-BLACK 1.png" alt="">
+                            <p>Discover the best, smartest and most effective way to communicate with your audience via
+                                screens at any location using our digital signage platform.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/PropCentral logo left 1.png" class="prop" alt="">
+                            <p>PropCentral is a hospitality management system that empowers property managers and
+                                connects them with tenants and visitors under one cost-effective platform.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Frame.png" alt="">
+                            <p>A complete visitor registration solution. Visitors to your company are welcomed in a
+                                friendly manner and can easily sign in and out.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Group.png" class="nameBoards" alt="">
+                            <p>Interactive digital signage for welcoming visitors and easy wayfinding in the building.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/sustainable signage logo.png" alt="">
+                            <p>Durable, efficient, wireless, E-ink displays that transform the space into a sustainable
+                                and modern environment.</p>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Third content -->
+            <div class="three divs btn3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Frame.png" alt="">
+                            <p>A complete visitor registration solution. Visitors to your company are welcomed in a
+                                friendly manner and can easily sign in and out.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/Group.png" class="nameBoards" alt="">
+                            <p>Interactive digital signage for welcoming visitors and easy wayfinding in the building.
+                            </p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/sustainable signage logo.png" class="signage" alt="">
+                            <p>Durable, efficient, wireless, E-ink displays that transform the space into a sustainable
+                                and modern environment.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/maptomize logo.png" class="map" alt="">
+                            <p>Point visitors, customers and employees in the right direction with interactive maps.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fourth content -->
+            <div class="four divs btn4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/incompany-logo 1.png" alt="">
+                            <p>A mobile intranet platform to keep employees and secure, connected and informed.</p>
+                        </div>
+
+                        <div class="col-xl-9 col-lg-9 col-md-9"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fifth content -->
+            <div class="five divs btn5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/ffwd.png" class="ffwd" alt="">
+                            <p>We help you connect with most talented developers from Serbia and hand-pick your
+                                nearshore dedicated development team according to your needs.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/image 1.png" class="virrpp" alt="">
+                            <p>VIRRP[Add dummy text here for now.]</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/gateway_logo2 1.png" class="gateway" alt="">
+                            <p>Gateway[Add dummy text here for now.]</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sixth content -->
+            <div class="six divs btn6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/truckwash-logo 1.png" class="truck" alt="">
+                            <p>An online booking system for Europe’s biggest truckwash companies to make sure the
+                                bookings are correct and the client is in good care.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/provada.png" class="provada" alt="">
+                            <p>[Add dummy text here for now.]</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/opticienSaas.png" class="opticien" alt="">
+                            <p>Optics software as a service. Intended for the optician who uses it as support when
+                                selling eyewear.</p>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 cont">
+                            <img src="./img/jansel.png" class="jansnel" alt="">
+                            <p>An enterprise communication app that makes it easy for Jan Snel employees to access the
+                                required documentation at all times.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Small devices -->
+
+
+        <div class="container-fluid d-lg-none" id="smallDevices">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="0" data-pause="true">
+                <div class="carousel-indicators">
+
+                    <img src="./img/Group 12.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1">
+                   
+                    <img src="./img/Group 9.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2">
+
+                    <img src="./img/Group 10.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3">
+
+                    <img src="./img/Group 7.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4">
+
+                    <img src="./img/Group 8.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5">
+
+                    <img src="./img/Group 11.png" alt="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6">
+                        
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button> -->
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button> -->
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button> -->
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button> -->
+                    <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button> -->
+
+                </div>
+
+                <!-- First slide content -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/smart-tv 1.png" alt="">
+                                    <p>Interactive signage solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/touchscreen.nl logo.png" class="touch" alt="">
+                                            <p>The one-stop shop for interactive screens and digital signage
+                                                solutions. We take
+                                                your ideas through all the necessary steps to bring them to life.
+                                            </p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Castiti-logo-with-text-BLACK 1.png" class="cast" alt="">
+                                            <p>Discover the best, smartest and most effective way to communicate
+                                                with your
+                                                audience via screens at any location using our digital signage
+                                                platform.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/sustainable signage logo.png" class="signage" alt="">
+                                            <p>Durable, efficient, wireless, E-ink displays that transform the space
+                                                into a
+                                                sustainable and modern environment.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/CityDotz logo.png" class="dotz" alt="">
+                                            <p>Durable, efficient, wireless, E-ink displays that transform the space
+                                                into a
+                                                sustainable and modern environment.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second slide content -->
+                    <div class="carousel-item">
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/building.png" alt="">
+                                    <p>Building management solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Castiti-logo-with-text-BLACK 1.png" alt="">
+                                            <p>Discover the best, smartest and most effective way to communicate with
+                                                your audience via
+                                                screens at any location using our digital signage platform.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/PropCentral logo left 1.png" class="prop" alt="">
+                                            <p>PropCentral is a hospitality management system that empowers property
+                                                managers and
+                                                connects them with tenants and visitors under one cost-effective
+                                                platform.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Frame.png" alt="">
+                                            <p>A complete visitor registration solution. Visitors to your company are
+                                                welcomed in a
+                                                friendly manner and can easily sign in and out.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Group.png" class="nameBoards" alt="">
+                                            <p>Interactive digital signage for welcoming visitors and easy wayfinding in
+                                                the building.
+                                            </p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/sustainable signage logo.png" alt="">
+                                            <p>Durable, efficient, wireless, E-ink displays that transform the space
+                                                into a sustainable
+                                                and modern environment.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Third carousel slide -->
+                    <div class="carousel-item">
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/sign.png" alt="">
+                                    <p>Smart wayfinding solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Frame.png" alt="">
+                                            <p>A complete visitor registration solution. Visitors to your company are
+                                                welcomed in a
+                                                friendly manner and can easily sign in and out.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/Group.png" class="nameBoards" alt="">
+                                            <p>Interactive digital signage for welcoming visitors and easy wayfinding in
+                                                the building.
+                                            </p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/sustainable signage logo.png" class="signage" alt="">
+                                            <p>Durable, efficient, wireless, E-ink displays that transform the space
+                                                into a sustainable
+                                                and modern environment.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/maptomize logo.png" class="map" alt="">
+                                            <p>Point visitors, customers and employees in the right direction with
+                                                interactive maps.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fourth carousel slide -->
+                    <div class="carousel-item">
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/people.png" alt="">
+                                    <p>In-company communication solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/incompany-logo 1.png" alt="">
+                                            <p>A mobile intranet platform to keep employees and secure, connected and
+                                                informed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Fifth carousel slide -->
+                    <div class="carousel-item">
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/services.png" alt="">
+                                    <p>Outsourcing services</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/ffwd.png" class="ffwd" alt="">
+                                            <p>We help you connect with most talented developers from Serbia and
+                                                hand-pick your
+                                                nearshore dedicated development team according to your needs.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/image 1.png" class="virrpp" alt="">
+                                            <p>VIRRP[Add dummy text here for now.]</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/gateway_logo2 1.png" class="gateway" alt="">
+                                            <p>Gateway[Add dummy text here for now.]</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sixth carousel slide -->
+                    <div class="carousel-item">
+                        <div class="mySlides">
+                            <div class="wrapp col-12">
+                                <div class="imgDiv">
+                                    <img src="./img/soft.png" alt="">
+                                    <p>Custom software solutions</p>
+                                </div>
+                            </div>
+
+                            <div class="oneSmall">
+
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/truckwash-logo 1.png" class="truck" alt="">
+                                            <p>An online booking system for Europe’s biggest truckwash companies to make
+                                                sure the
+                                                bookings are correct and the client is in good care.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/provada.png" class="provada" alt="">
+                                            <p>[Add dummy text here for now.]</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/opticienSaas.png" class="opticien" alt="">
+                                            <p>Optics software as a service. Intended for the optician who uses it as
+                                                support when
+                                                selling eyewear.</p>
+                                        </div>
+
+                                        <div class="col-12 contSmall">
+                                            <img src="./img/jansel.png" class="jansnel" alt="">
+                                            <p>An enterprise communication app that makes it easy for Jan Snel employees
+                                                to access the
+                                                required documentation at all times.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev arrow" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <img src="./img/arrow_left.png" alt="arrow_left">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next arrow" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <img src="./img/arrow_right.png" alt="arrow_right">
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- JS FILE -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
