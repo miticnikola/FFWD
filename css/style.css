@@ -58,7 +58,7 @@ body #main {
         margin: 0 auto;
         font-size: 24px; }
   body #main .container-fluid {
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     width: 100%;
     margin-top: -75px; }
     body #main .container-fluid .one,
@@ -247,7 +247,7 @@ body #main {
       body #main .container-fluid .carousel .carousel-indicators {
         position: absolute; }
         body #main .container-fluid .carousel .carousel-indicators img {
-          background-color: #F5F5F5; }
+          background-color: #f5f5f5; }
           body #main .container-fluid .carousel .carousel-indicators img:first-child {
             width: 20%;
             height: auto;
@@ -255,48 +255,44 @@ body #main {
           body #main .container-fluid .carousel .carousel-indicators img:not(first-child) {
             width: 20%;
             height: auto; }
-        body #main .container-fluid .carousel .carousel-indicators p {
-          color: blue; }
-      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides {
-        background-color: blue; }
-        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {
-          position: absolute;
-          margin-top: -160px; }
-          body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv {
-            display: block;
-            background-color: #303030;
-            height: 323px;
-            width: 323px;
-            border-radius: 50%;
-            margin: 0 auto;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center; }
-            body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
-              color: white;
-              margin: 0;
-              padding: 0;
-              padding-top: 10px;
-              width: 80%;
-              text-align: center;
-              font-size: 24px; }
-        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
-          padding-top: 170px;
-          height: 1203px;
-          background-color: #F5F5F5;
-          margin-top: 166px; }
-          body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall :not(first-child) {
-            margin-top: 20px; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp {
+        position: absolute;
+        margin-top: -160px; }
+        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv {
+          display: block;
+          background-color: #303030;
+          height: 323px;
+          width: 323px;
+          border-radius: 50%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .wrapp .imgDiv p {
+            color: white;
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+            width: 80%;
+            text-align: center;
+            font-size: 24px; }
+      body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall {
+        padding-top: 170px;
+        height: 1203px;
+        background-color: #f5f5f5;
+        margin-top: 166px; }
+        body #main .container-fluid .carousel .carousel-inner .carousel-item .mySlides .oneSmall .container .row .contSmall :not(first-child) {
+          margin-top: 20px; }
       body #main .container-fluid .carousel .arrow img {
         margin-top: -1170px;
         width: 20%; } }
