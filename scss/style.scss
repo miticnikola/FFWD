@@ -40,14 +40,12 @@ $white: #ffffff;
 body {
   // Header
   header {
-    background-color: $white;
     // Navigation
     nav {
       background-color: $white;
       .container-fluid {
         height: 134px;
         padding: 0 20px 0 70px;
-        background-color: $white;
         .collapse {
           .nav {
             margin: 0 auto;
@@ -402,7 +400,10 @@ body {
       }
     }
     #main {
+      padding: 0;
       .container {
+        padding-bottom: 150px;
+        padding-top: 100px;
         .row {
           .btnSm {
             @include centeredFlex;
@@ -468,7 +469,7 @@ body {
                 }
                 .oneSmall {
                   // background-color: red;
-                  padding-top: 170px;
+                  padding-top: 40px;
                   // background-color: yellow;
                   height: 1203px;
                   background-color: $containerBckg;
