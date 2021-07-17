@@ -1,0 +1,21 @@
+@mixin contLg {
+    display: block;
+    padding-top: 70px;
+    position: relative;
+  }
+  @mixin contPlg {
+    font-size: 14px;
+    padding-bottom: 50px;
+  }
+  
+  @mixin contImgLg {
+    position: absolute;
+    top: 0;
+    margin-top: 120px;
+  }
+  
+  @mixin centeredFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
