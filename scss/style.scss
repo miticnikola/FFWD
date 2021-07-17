@@ -389,10 +389,34 @@ body {
             right: 30px;
             border: none;
           }
-          .navbar-collapse {
-            margin-top: 100px;
-            .nav {
-              width: 100%;
+          .offcanvas {
+            background-color: $white;
+            width: 90%;
+            .offcanvas-header {
+              // background-color: orange;
+              position: relative;
+              #offcanvas_search {
+                // border: 1px solid red;
+                position: absolute;
+                right: 70px;
+                top: 25px;
+              }
+              #close {
+                position: absolute;
+                right: 40px;
+                top: 30px;
+              }
+            }
+            .offcanvas-body {
+              // background-color: greenyellow;
+              @include centeredFlex;
+              // ul {
+              //   li {
+              //     a {
+
+              //     }
+              //   }
+              // }
             }
           }
         }
@@ -573,16 +597,11 @@ body {
                   }
                 }
 
-
                 .oneSmall {
                   // background-color: red;
                   padding-top: 0px;
                   padding-top: 60px;
-
                 }
-
-
-
               }
             }
           }
@@ -595,10 +614,8 @@ body {
         }
       }
     }
-
   }
 }
-
 
 @media (max-width: 320px) {
   body {
@@ -654,6 +671,5 @@ body {
         }
       }
     }
-
   }
 }
